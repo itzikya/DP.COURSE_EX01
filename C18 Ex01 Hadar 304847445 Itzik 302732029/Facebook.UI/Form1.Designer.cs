@@ -1,4 +1,4 @@
-﻿namespace C18_Ex01
+﻿namespace Facebook.UI
 {
     partial class Form1
     {
@@ -37,3 +37,4 @@
         #endregion
     }
 }
+

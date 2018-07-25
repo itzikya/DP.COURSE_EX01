@@ -104,5 +104,23 @@ namespace Facebook.UI
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panel5.Height = button1.Height;
+            panel5.Top = button1.Top;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            panel5.Height = button2.Height;
+            panel5.Top = button2.Top;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            panel5.Height = button3.Height;
+            panel5.Top = button3.Top;
+        }
     }
 }

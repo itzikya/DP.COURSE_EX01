@@ -118,10 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="blue_squares-t2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blue_squares-t2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="light-gray-color-cotton-polyester-fabric-texture-background-fashion-design-concept_7190-618" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\light-gray-color-cotton-polyester-fabric-texture-background-fashion-design-concept_7190-618.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heart-banner-14841786788vy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heart-banner-14841786788vy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="הורד" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\הורד.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heart-3097561_960_720" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heart-3097561_960_720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Blue-Wallpaper-46-1920x1200-768x480" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Blue-Wallpaper-46-1920x1200-768x480.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etsy-Banners" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Etsy-Banners.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-logo-design-inspiration-1024x576" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-logo-design-inspiration-1024x576.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="500_F_132931021_2P9hED6T7Vm3Gq9zJBYp12TpGOA36Vjy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\500_F_132931021_2P9hED6T7Vm3Gq9zJBYp12TpGOA36Vjy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue_squares-t2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue_squares-t2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="455603baa711252" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\455603baa711252.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

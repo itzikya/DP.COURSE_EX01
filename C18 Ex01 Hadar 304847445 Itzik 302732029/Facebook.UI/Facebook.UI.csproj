@@ -86,5 +86,35 @@
   <ItemGroup>
     <None Include="Resources\Blue-Wallpaper-46-1920x1200-768x480.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-logo-design-inspiration-1024x576.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\455603baa711252.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light-gray-color-cotton-polyester-fabric-texture-background-fashion-design-concept_7190-618.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart-3097561_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Etsy-Banners.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart-banner-14841786788vy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500_F_132931021_2P9hED6T7Vm3Gq9zJBYp12TpGOA36Vjy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\הורד.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

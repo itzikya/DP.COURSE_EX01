@@ -28,7 +28,10 @@ namespace Facebook.UI
             "user_friends",
             "user_birthday",
             "user_photos",
-            "user_likes");
+            "user_likes",
+            "user_posts");
+
+           
 
             if (!string.IsNullOrEmpty(result.AccessToken))
             {
@@ -59,10 +62,42 @@ namespace Facebook.UI
         private void fetchUserInfo()
         {
             pictureBoxProfilePicture.LoadAsync(m_LoggedInUser.PictureNormalURL);
+            labelLoggedInUserName.Text = m_LoggedInUser.Name;
             
         }
 
-       
+        private void buttonLogout_Click(object sender, EventArgs e)
+        {
+            FacebookService.Logout(clearProfilePicture);
+           
+        }
 
+        private void clearProfilePicture()
+        {
+            pictureBoxProfilePicture.ImageLocation = null;
+        }
+
+        private void buttonRaffle_Click(object sender, EventArgs e)
+        {
+            int numberOfFriends = m_LoggedInUser.Friends.Count;
+            int friend1, friend2;
+            User match1, match2;
+            Random randomChoice = new Random();
+
+            friend1 = randomChoice.Next(0, numberOfFriends);
+            pictureBoxMatchPerson1.ImageLocation = m_LoggedInUser.Friends[friend1].PictureNormalURL;
+            match1 = m_LoggedInUser.Friends[friend1];
+            labelMatchPerson1.Text = match1.Name;
+            friend2 = randomChoice.Next(0, numberOfFriends);
+
+            while (friend1 == friend2)
+            {
+                friend2 = randomChoice.Next(0, numberOfFriends);
+            }
+
+            pictureBoxMatchPerson2.ImageLocation = m_LoggedInUser.Friends[friend2].PictureNormalURL;
+            match2 = m_LoggedInUser.Friends[friend2];
+            labelMatchPerson2.Text = match2.Name;
+        }
     }
 }

@@ -35,7 +35,9 @@
             this.labelMatchPerson1 = new System.Windows.Forms.Label();
             this.labelMatchPerson2 = new System.Windows.Forms.Label();
             this.labelMatchGame = new System.Windows.Forms.Label();
-            this.button = new System.Windows.Forms.Button();
+            this.buttonRaffle = new System.Windows.Forms.Button();
+            this.buttonLogout = new System.Windows.Forms.Button();
+            this.labelLoggedInUserName = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProfilePicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMatchPerson1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMatchPerson2)).BeginInit();
@@ -45,13 +47,13 @@
             // 
             this.pictureBoxProfilePicture.Location = new System.Drawing.Point(35, 29);
             this.pictureBoxProfilePicture.Name = "pictureBoxProfilePicture";
-            this.pictureBoxProfilePicture.Size = new System.Drawing.Size(132, 123);
+            this.pictureBoxProfilePicture.Size = new System.Drawing.Size(152, 145);
             this.pictureBoxProfilePicture.TabIndex = 0;
             this.pictureBoxProfilePicture.TabStop = false;
             // 
             // buttonLogin
             // 
-            this.buttonLogin.Location = new System.Drawing.Point(35, 182);
+            this.buttonLogin.Location = new System.Drawing.Point(35, 234);
             this.buttonLogin.Name = "buttonLogin";
             this.buttonLogin.Size = new System.Drawing.Size(132, 44);
             this.buttonLogin.TabIndex = 1;
@@ -61,24 +63,24 @@
             // 
             // pictureBoxMatchPerson1
             // 
-            this.pictureBoxMatchPerson1.Location = new System.Drawing.Point(533, 132);
+            this.pictureBoxMatchPerson1.Location = new System.Drawing.Point(483, 83);
             this.pictureBoxMatchPerson1.Name = "pictureBoxMatchPerson1";
-            this.pictureBoxMatchPerson1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBoxMatchPerson1.Size = new System.Drawing.Size(150, 149);
             this.pictureBoxMatchPerson1.TabIndex = 2;
             this.pictureBoxMatchPerson1.TabStop = false;
             // 
             // pictureBoxMatchPerson2
             // 
-            this.pictureBoxMatchPerson2.Location = new System.Drawing.Point(754, 132);
+            this.pictureBoxMatchPerson2.Location = new System.Drawing.Point(754, 83);
             this.pictureBoxMatchPerson2.Name = "pictureBoxMatchPerson2";
-            this.pictureBoxMatchPerson2.Size = new System.Drawing.Size(100, 100);
+            this.pictureBoxMatchPerson2.Size = new System.Drawing.Size(146, 149);
             this.pictureBoxMatchPerson2.TabIndex = 3;
             this.pictureBoxMatchPerson2.TabStop = false;
             // 
             // labelMatchPerson1
             // 
             this.labelMatchPerson1.AutoSize = true;
-            this.labelMatchPerson1.Location = new System.Drawing.Point(568, 258);
+            this.labelMatchPerson1.Location = new System.Drawing.Point(543, 257);
             this.labelMatchPerson1.Name = "labelMatchPerson1";
             this.labelMatchPerson1.Size = new System.Drawing.Size(0, 20);
             this.labelMatchPerson1.TabIndex = 4;
@@ -86,7 +88,7 @@
             // labelMatchPerson2
             // 
             this.labelMatchPerson2.AutoSize = true;
-            this.labelMatchPerson2.Location = new System.Drawing.Point(788, 257);
+            this.labelMatchPerson2.Location = new System.Drawing.Point(828, 235);
             this.labelMatchPerson2.Name = "labelMatchPerson2";
             this.labelMatchPerson2.Size = new System.Drawing.Size(0, 20);
             this.labelMatchPerson2.TabIndex = 5;
@@ -94,27 +96,48 @@
             // labelMatchGame
             // 
             this.labelMatchGame.AutoSize = true;
-            this.labelMatchGame.Location = new System.Drawing.Point(646, 80);
+            this.labelMatchGame.Location = new System.Drawing.Point(637, 29);
             this.labelMatchGame.Name = "labelMatchGame";
             this.labelMatchGame.Size = new System.Drawing.Size(132, 20);
             this.labelMatchGame.TabIndex = 6;
             this.labelMatchGame.Text = "The Match Maker";
             // 
-            // button
+            // buttonRaffle
             // 
-            this.button.Location = new System.Drawing.Point(650, 267);
-            this.button.Name = "button";
-            this.button.Size = new System.Drawing.Size(119, 50);
-            this.button.TabIndex = 7;
-            this.button.Text = "Raffle!";
-            this.button.UseVisualStyleBackColor = true;
+            this.buttonRaffle.Location = new System.Drawing.Point(641, 271);
+            this.buttonRaffle.Name = "buttonRaffle";
+            this.buttonRaffle.Size = new System.Drawing.Size(119, 50);
+            this.buttonRaffle.TabIndex = 7;
+            this.buttonRaffle.Text = "Raffle!";
+            this.buttonRaffle.UseVisualStyleBackColor = true;
+            this.buttonRaffle.Click += new System.EventHandler(this.buttonRaffle_Click);
+            // 
+            // buttonLogout
+            // 
+            this.buttonLogout.Location = new System.Drawing.Point(35, 299);
+            this.buttonLogout.Name = "buttonLogout";
+            this.buttonLogout.Size = new System.Drawing.Size(132, 46);
+            this.buttonLogout.TabIndex = 8;
+            this.buttonLogout.Text = "Logout";
+            this.buttonLogout.UseVisualStyleBackColor = true;
+            this.buttonLogout.Click += new System.EventHandler(this.buttonLogout_Click);
+            // 
+            // labelLoggedInUserName
+            // 
+            this.labelLoggedInUserName.AutoSize = true;
+            this.labelLoggedInUserName.Location = new System.Drawing.Point(49, 188);
+            this.labelLoggedInUserName.Name = "labelLoggedInUserName";
+            this.labelLoggedInUserName.Size = new System.Drawing.Size(0, 20);
+            this.labelLoggedInUserName.TabIndex = 9;
             // 
             // AppMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1042, 641);
-            this.Controls.Add(this.button);
+            this.Controls.Add(this.labelLoggedInUserName);
+            this.Controls.Add(this.buttonLogout);
+            this.Controls.Add(this.buttonRaffle);
             this.Controls.Add(this.labelMatchGame);
             this.Controls.Add(this.labelMatchPerson2);
             this.Controls.Add(this.labelMatchPerson1);
@@ -142,7 +165,9 @@
         private System.Windows.Forms.Label labelMatchPerson1;
         private System.Windows.Forms.Label labelMatchPerson2;
         private System.Windows.Forms.Label labelMatchGame;
-        private System.Windows.Forms.Button button;
+        private System.Windows.Forms.Button buttonRaffle;
+        private System.Windows.Forms.Button buttonLogout;
+        private System.Windows.Forms.Label labelLoggedInUserName;
     }
 }
 

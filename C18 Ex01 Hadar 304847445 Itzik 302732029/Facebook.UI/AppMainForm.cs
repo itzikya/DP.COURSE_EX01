@@ -99,5 +99,10 @@ namespace Facebook.UI
             match2 = m_LoggedInUser.Friends[friend2];
             labelMatchPerson2.Text = match2.Name;
         }
+
+        private void checkBoxRememberMe_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

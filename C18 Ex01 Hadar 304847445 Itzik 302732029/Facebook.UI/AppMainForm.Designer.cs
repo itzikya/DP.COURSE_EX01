@@ -38,6 +38,8 @@
             this.buttonRaffle = new System.Windows.Forms.Button();
             this.buttonLogout = new System.Windows.Forms.Button();
             this.labelLoggedInUserName = new System.Windows.Forms.Label();
+            this.checkBoxRememberMe = new System.Windows.Forms.CheckBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProfilePicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMatchPerson1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMatchPerson2)).BeginInit();
@@ -53,7 +55,7 @@
             // 
             // buttonLogin
             // 
-            this.buttonLogin.Location = new System.Drawing.Point(35, 234);
+            this.buttonLogin.Location = new System.Drawing.Point(35, 271);
             this.buttonLogin.Name = "buttonLogin";
             this.buttonLogin.Size = new System.Drawing.Size(132, 44);
             this.buttonLogin.TabIndex = 1;
@@ -114,7 +116,7 @@
             // 
             // buttonLogout
             // 
-            this.buttonLogout.Location = new System.Drawing.Point(35, 299);
+            this.buttonLogout.Location = new System.Drawing.Point(35, 371);
             this.buttonLogout.Name = "buttonLogout";
             this.buttonLogout.Size = new System.Drawing.Size(132, 46);
             this.buttonLogout.TabIndex = 8;
@@ -125,16 +127,39 @@
             // labelLoggedInUserName
             // 
             this.labelLoggedInUserName.AutoSize = true;
-            this.labelLoggedInUserName.Location = new System.Drawing.Point(49, 188);
+            this.labelLoggedInUserName.Location = new System.Drawing.Point(50, 188);
             this.labelLoggedInUserName.Name = "labelLoggedInUserName";
             this.labelLoggedInUserName.Size = new System.Drawing.Size(0, 20);
             this.labelLoggedInUserName.TabIndex = 9;
+            // 
+            // checkBoxRememberMe
+            // 
+            this.checkBoxRememberMe.AutoSize = true;
+            this.checkBoxRememberMe.Location = new System.Drawing.Point(35, 321);
+            this.checkBoxRememberMe.Name = "checkBoxRememberMe";
+            this.checkBoxRememberMe.Size = new System.Drawing.Size(140, 24);
+            this.checkBoxRememberMe.TabIndex = 10;
+            this.checkBoxRememberMe.Text = "Remember Me";
+            this.checkBoxRememberMe.UseVisualStyleBackColor = true;
+            this.checkBoxRememberMe.CheckedChanged += new System.EventHandler(this.checkBoxRememberMe_CheckedChanged);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.BackgroundImage = global::Facebook.UI.Properties.Resources.blue_squares_t2;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(226, 641);
+            this.panel1.TabIndex = 11;
             // 
             // AppMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Facebook.UI.Properties.Resources.Blue_Wallpaper_46_1920x1200_768x480;
             this.ClientSize = new System.Drawing.Size(1042, 641);
+            this.Controls.Add(this.checkBoxRememberMe);
             this.Controls.Add(this.labelLoggedInUserName);
             this.Controls.Add(this.buttonLogout);
             this.Controls.Add(this.buttonRaffle);
@@ -145,6 +170,7 @@
             this.Controls.Add(this.pictureBoxMatchPerson1);
             this.Controls.Add(this.buttonLogin);
             this.Controls.Add(this.pictureBoxProfilePicture);
+            this.Controls.Add(this.panel1);
             this.Name = "AppMainForm";
             this.Text = "AppMainForm";
             this.Load += new System.EventHandler(this.AppMainForm_Load);
@@ -168,6 +194,8 @@
         private System.Windows.Forms.Button buttonRaffle;
         private System.Windows.Forms.Button buttonLogout;
         private System.Windows.Forms.Label labelLoggedInUserName;
+        private System.Windows.Forms.CheckBox checkBoxRememberMe;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

@@ -38,6 +38,7 @@
             this.buttonRaffle = new System.Windows.Forms.Button();
             this.buttonLogout = new System.Windows.Forms.Button();
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.buttonLogin = new System.Windows.Forms.Button();
             this.pictureBoxProfilePicture = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -51,6 +52,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMatchPerson2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMatchPerson1)).BeginInit();
             this.panel1.SuspendLayout();
+=======
+            this.labelLoggedInUserName = new System.Windows.Forms.Label();
+            this.checkBoxRememberMe = new System.Windows.Forms.CheckBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+>>>>>>> parent of df60b55... Maybe this design
 =======
             this.labelLoggedInUserName = new System.Windows.Forms.Label();
             this.checkBoxRememberMe = new System.Windows.Forms.CheckBox();
@@ -101,7 +107,11 @@
             this.labelMatchPerson1.Location = new System.Drawing.Point(543, 257);
             this.labelMatchPerson1.Name = "labelMatchPerson1";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.labelMatchPerson1.Size = new System.Drawing.Size(0, 21);
+=======
+            this.labelMatchPerson1.Size = new System.Drawing.Size(0, 20);
+>>>>>>> parent of df60b55... Maybe this design
 =======
             this.labelMatchPerson1.Size = new System.Drawing.Size(0, 20);
 >>>>>>> parent of df60b55... Maybe this design
@@ -113,7 +123,11 @@
             this.labelMatchPerson2.Location = new System.Drawing.Point(828, 235);
             this.labelMatchPerson2.Name = "labelMatchPerson2";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.labelMatchPerson2.Size = new System.Drawing.Size(0, 21);
+=======
+            this.labelMatchPerson2.Size = new System.Drawing.Size(0, 20);
+>>>>>>> parent of df60b55... Maybe this design
 =======
             this.labelMatchPerson2.Size = new System.Drawing.Size(0, 20);
 >>>>>>> parent of df60b55... Maybe this design
@@ -123,8 +137,12 @@
             // 
             this.labelMatchGame.AutoSize = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.labelMatchGame.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMatchGame.Location = new System.Drawing.Point(536, 69);
+=======
+            this.labelMatchGame.Location = new System.Drawing.Point(637, 29);
+>>>>>>> parent of df60b55... Maybe this design
 =======
             this.labelMatchGame.Location = new System.Drawing.Point(637, 29);
 >>>>>>> parent of df60b55... Maybe this design
@@ -137,9 +155,13 @@
             // buttonRaffle
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.buttonRaffle.BackColor = System.Drawing.Color.Silver;
             this.buttonRaffle.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRaffle.Location = new System.Drawing.Point(591, 478);
+=======
+            this.buttonRaffle.Location = new System.Drawing.Point(641, 271);
+>>>>>>> parent of df60b55... Maybe this design
 =======
             this.buttonRaffle.Location = new System.Drawing.Point(641, 271);
 >>>>>>> parent of df60b55... Maybe this design
@@ -169,6 +191,7 @@
             this.labelLoggedInUserName.TabIndex = 9;
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // panel3
             //
             //this.panel3.Controls.Add(this.labelMatchPerson1);
@@ -178,6 +201,8 @@
             //this.panel3.Size = new System.Drawing.Size(200, 273);
             //this.panel3.TabIndex = 13;
 =======
+=======
+>>>>>>> parent of df60b55... Maybe this design
             // checkBoxRememberMe
             // 
             this.checkBoxRememberMe.AutoSize = true;
@@ -188,6 +213,7 @@
             this.checkBoxRememberMe.Text = "Remember Me";
             this.checkBoxRememberMe.UseVisualStyleBackColor = true;
             this.checkBoxRememberMe.CheckedChanged += new System.EventHandler(this.checkBoxRememberMe_CheckedChanged);
+<<<<<<< HEAD
 >>>>>>> parent of df60b55... Maybe this design
             // 
             // panel1
@@ -261,6 +287,11 @@
             this.radioButton5.UseVisualStyleBackColor = true;
             this.radioButton5.Visible = false;
 =======
+=======
+            // 
+            // panel1
+            // 
+>>>>>>> parent of df60b55... Maybe this design
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.BackgroundImage = global::Facebook.UI.Properties.Resources.blue_squares_t2;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -268,6 +299,9 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(226, 641);
             this.panel1.TabIndex = 11;
+<<<<<<< HEAD
+>>>>>>> parent of df60b55... Maybe this design
+=======
 >>>>>>> parent of df60b55... Maybe this design
             // 
             // AppMainForm
@@ -277,11 +311,17 @@
             this.BackgroundImage = global::Facebook.UI.Properties.Resources.Blue_Wallpaper_46_1920x1200_768x480;
             this.ClientSize = new System.Drawing.Size(1042, 641);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.Controls.Add(this.radioButton5);
             this.Controls.Add(this.radioButton4);
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
+=======
+            this.Controls.Add(this.checkBoxRememberMe);
+            this.Controls.Add(this.labelLoggedInUserName);
+            this.Controls.Add(this.buttonLogout);
+>>>>>>> parent of df60b55... Maybe this design
 =======
             this.Controls.Add(this.checkBoxRememberMe);
             this.Controls.Add(this.labelLoggedInUserName);
@@ -322,6 +362,7 @@
         private System.Windows.Forms.CheckBox checkBoxRememberMe;
         private System.Windows.Forms.Panel panel1;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button3;
@@ -334,6 +375,8 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton5;
+=======
+>>>>>>> parent of df60b55... Maybe this design
 =======
 >>>>>>> parent of df60b55... Maybe this design
     }

@@ -47,6 +47,11 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMatchPerson2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMatchPerson1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -61,9 +66,8 @@
             this.labelMatchPerson1.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMatchPerson1.Location = new System.Drawing.Point(41, 33);
             this.labelMatchPerson1.Name = "labelMatchPerson1";
-            this.labelMatchPerson1.Size = new System.Drawing.Size(93, 21);
+            this.labelMatchPerson1.Size = new System.Drawing.Size(0, 21);
             this.labelMatchPerson1.TabIndex = 4;
-            this.labelMatchPerson1.Text = "Temporary";
             // 
             // labelMatchPerson2
             // 
@@ -71,25 +75,25 @@
             this.labelMatchPerson2.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMatchPerson2.Location = new System.Drawing.Point(41, 33);
             this.labelMatchPerson2.Name = "labelMatchPerson2";
-            this.labelMatchPerson2.Size = new System.Drawing.Size(93, 21);
+            this.labelMatchPerson2.Size = new System.Drawing.Size(0, 21);
             this.labelMatchPerson2.TabIndex = 5;
-            this.labelMatchPerson2.Text = "Temporary";
             // 
             // labelMatchGame
             // 
             this.labelMatchGame.AutoSize = true;
             this.labelMatchGame.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMatchGame.Location = new System.Drawing.Point(546, 102);
+            this.labelMatchGame.Location = new System.Drawing.Point(536, 69);
             this.labelMatchGame.Name = "labelMatchGame";
             this.labelMatchGame.Size = new System.Drawing.Size(221, 30);
             this.labelMatchGame.TabIndex = 6;
             this.labelMatchGame.Text = "The Match Maker";
+            this.labelMatchGame.Click += new System.EventHandler(this.labelMatchGame_Click);
             // 
             // buttonRaffle
             // 
             this.buttonRaffle.BackColor = System.Drawing.Color.Silver;
             this.buttonRaffle.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRaffle.Location = new System.Drawing.Point(600, 523);
+            this.buttonRaffle.Location = new System.Drawing.Point(591, 478);
             this.buttonRaffle.Name = "buttonRaffle";
             this.buttonRaffle.Size = new System.Drawing.Size(119, 50);
             this.buttonRaffle.TabIndex = 7;
@@ -243,22 +247,83 @@
             this.panel2.TabIndex = 12;
             // 
             // panel3
-            // 
-            this.panel3.Controls.Add(this.labelMatchPerson1);
-            this.panel3.Controls.Add(this.pictureBoxMatchPerson1);
-            this.panel3.Location = new System.Drawing.Point(357, 198);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 273);
-            this.panel3.TabIndex = 13;
+            //
+            //this.panel3.Controls.Add(this.labelMatchPerson1);
+            //this.panel3.Controls.Add(this.pictureBoxMatchPerson1);
+            //this.panel3.Location = new System.Drawing.Point(341, 113);
+            //this.panel3.Name = "panel3";
+            //this.panel3.Size = new System.Drawing.Size(200, 273);
+            //this.panel3.TabIndex = 13;
             // 
             // panel4
             // 
             this.panel4.Controls.Add(this.labelMatchPerson2);
             this.panel4.Controls.Add(this.pictureBoxMatchPerson2);
-            this.panel4.Location = new System.Drawing.Point(751, 198);
+            this.panel4.Location = new System.Drawing.Point(739, 113);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(200, 273);
             this.panel4.TabIndex = 14;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(432, 423);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(43, 24);
+            this.radioButton1.TabIndex = 15;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "1";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.Visible = false;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(515, 423);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(43, 24);
+            this.radioButton2.TabIndex = 16;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "2";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.Visible = false;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(600, 423);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(43, 24);
+            this.radioButton3.TabIndex = 17;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "3";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.Visible = false;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(685, 423);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(43, 24);
+            this.radioButton4.TabIndex = 18;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "4";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.Visible = false;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Location = new System.Drawing.Point(766, 423);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(43, 24);
+            this.radioButton5.TabIndex = 19;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "5";
+            this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.Visible = false;
             // 
             // AppMainForm
             // 
@@ -268,6 +333,11 @@
             this.BackgroundImage = global::Facebook.UI.Properties.Resources.heart_3097561_960_720;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1042, 641);
+            this.Controls.Add(this.radioButton5);
+            this.Controls.Add(this.radioButton4);
+            this.Controls.Add(this.radioButton3);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.buttonRaffle);
             this.Controls.Add(this.labelMatchGame);
             this.Controls.Add(this.panel1);
@@ -313,6 +383,11 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton radioButton5;
     }
 }
 

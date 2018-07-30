@@ -63,26 +63,6 @@ namespace Facebook.UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _455603baa711252 {
-            get {
-                object obj = ResourceManager.GetObject("455603baa711252", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _500_F_132931021_2P9hED6T7Vm3Gq9zJBYp12TpGOA36Vjy {
-            get {
-                object obj = ResourceManager.GetObject("500_F_132931021_2P9hED6T7Vm3Gq9zJBYp12TpGOA36Vjy", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap blue_squares_t2 {
             get {
                 object obj = ResourceManager.GetObject("blue_squares-t2", resourceCulture);
@@ -96,87 +76,6 @@ namespace Facebook.UI.Properties {
         internal static System.Drawing.Bitmap Blue_Wallpaper_46_1920x1200_768x480 {
             get {
                 object obj = ResourceManager.GetObject("Blue-Wallpaper-46-1920x1200-768x480", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Etsy_Banners {
-            get {
-                object obj = ResourceManager.GetObject("Etsy-Banners", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap free_logo_design_inspiration_1024x576 {
-            get {
-                object obj = ResourceManager.GetObject("free-logo-design-inspiration-1024x576", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap heart_3097561_960_720 {
-            get {
-                object obj = ResourceManager.GetObject("heart-3097561_960_720", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap heart_banner_14841786788vy {
-            get {
-                object obj = ResourceManager.GetObject("heart-banner-14841786788vy", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap images {
-            get {
-                object obj = ResourceManager.GetObject("images", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap images__1_ {
-            get {
-                object obj = ResourceManager.GetObject("images (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_gray_color_cotton_polyester_fabric_texture_background_fashion_design_concept_7190_618 {
-            get {
-                object obj = ResourceManager.GetObject("light-gray-color-cotton-polyester-fabric-texture-background-fashion-design-concep" +
-                        "t_7190-618", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap הורד {
-            get {
-                object obj = ResourceManager.GetObject("הורד", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

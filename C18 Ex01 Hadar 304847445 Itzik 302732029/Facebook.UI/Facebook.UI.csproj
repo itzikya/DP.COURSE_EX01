@@ -86,5 +86,14 @@
   <ItemGroup>
     <None Include="Resources\Blue-Wallpaper-46-1920x1200-768x480.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\500_F_132931021_2P9hED6T7Vm3Gq9zJBYp12TpGOA36Vjy.jpg" />
+    <Content Include="Resources\Etsy-Banners.png" />
+    <Content Include="Resources\heart-3097561_960_720.png" />
+    <None Include="Resources\heart-3097561_960_7201.png" />
+    <Content Include="Resources\heart-banner-14841786788vy.jpg" />
+    <Content Include="Resources\images %281%29.jpg" />
+    <Content Include="Resources\הורד.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
